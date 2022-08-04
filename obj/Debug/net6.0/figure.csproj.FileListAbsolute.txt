@@ -1,0 +1,15 @@
+/home/maxok/source/figure/bin/Debug/net6.0/figure
+/home/maxok/source/figure/bin/Debug/net6.0/figure.deps.json
+/home/maxok/source/figure/bin/Debug/net6.0/figure.runtimeconfig.json
+/home/maxok/source/figure/bin/Debug/net6.0/figure.dll
+/home/maxok/source/figure/bin/Debug/net6.0/figure.pdb
+/home/maxok/source/figure/obj/Debug/net6.0/figure.csproj.AssemblyReference.cache
+/home/maxok/source/figure/obj/Debug/net6.0/figure.GeneratedMSBuildEditorConfig.editorconfig
+/home/maxok/source/figure/obj/Debug/net6.0/figure.AssemblyInfoInputs.cache
+/home/maxok/source/figure/obj/Debug/net6.0/figure.AssemblyInfo.cs
+/home/maxok/source/figure/obj/Debug/net6.0/figure.csproj.CoreCompileInputs.cache
+/home/maxok/source/figure/obj/Debug/net6.0/figure.dll
+/home/maxok/source/figure/obj/Debug/net6.0/refint/figure.dll
+/home/maxok/source/figure/obj/Debug/net6.0/figure.pdb
+/home/maxok/source/figure/obj/Debug/net6.0/figure.genruntimeconfig.cache
+/home/maxok/source/figure/obj/Debug/net6.0/ref/figure.dll
