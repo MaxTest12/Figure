@@ -1,4 +1,6 @@
-﻿namespace Program
+﻿using System;
+
+namespace Program
 {
     class Program
     {
@@ -6,11 +8,11 @@
         {
           Console.WriteLine("Wpisz figurę");
           string Figure = Console.ReadLine();
-          if(Figure == "Trójkąt" || Figure == "trójkąt")
+          if(Figure.Equals("Trójkąt",StringComparison.InvariantCultureIgnoreCase))
           {
-            Traingle();
+           Traingle();
           }
-          else if(Figure == "Kwadrat" || Figure == "kwadrat")
+          else if(Figure.Equals("Kwadrat",StringComparison.InvariantCultureIgnoreCase))
           {
             Sqaure();
           }
@@ -26,15 +28,13 @@
           //third side
           Console.WriteLine("Podaj Trzeci bok");
           float side_3 = Convert.ToSingle(Console.ReadLine());
-          //hight
-          Console.WriteLine("Podaj Wysokość");
-          float hight = Convert.ToSingle(Console.ReadLine());
           
-          Console.WriteLine("Pole/Obwód");
+          Console.WriteLine("1.Pole");
+          Console.WriteLine("2.Obwód");
           string calculation = Console.ReadLine();
-          if(calculation == "Pole")
+          if(calculation == "1")
           {
-            Console.WriteLine((side_1*hight)/2);
+            Console.WriteLine((side_1 + side_2  + side_3)/2);
           }
           else
           {
@@ -45,10 +45,11 @@
         {
           Console.WriteLine("Podaj  bok");
           float side_1 = Convert.ToSingle(Console.ReadLine()); 
-          
-          Console.WriteLine("Pole/Obwód");
+
+          Console.WriteLine("1.Pole");
+          Console.WriteLine("2.Obwód");
           string calculation = Console.ReadLine();
-          if(calculation == "Pole")
+          if(calculation == "1")
           {
             Console.WriteLine(side_1*side_1);
           }
